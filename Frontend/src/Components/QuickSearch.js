@@ -1,0 +1,36 @@
+import React from "react";
+import QuickSearchItem from './QuickSearchItem';
+
+// component for quick search based on meal time/type
+
+class QuickSearch extends React.Component {
+    render() {
+        const { mealtypesData } = this.props;
+        return (
+            <div>
+                <div className="quicksearch">
+                    <p className="quicksearchHeading">
+                        Quick Searches
+                    </p>
+                    <p className="quicksearchSubHeading">
+                        Discover Restaurants by type of meal
+                    </p>
+                    <div className="container-fluid">
+                        <div className="row">
+
+                            {mealtypesData.map(item => {
+                                return <QuickSearchItem qsData={item} />
+                            })}
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        )
+    }
+}
+
+export default QuickSearch;
