@@ -6,12 +6,14 @@ Start the project: Use npm run start in the command line/terminal to start execu
 
 Tech Stack:
 
-1. Express js
-2. Mongo db Atlas
-3. Node js
-4. Npm for packages
+1. Express js for backend
+2. Mongo db Atlas for database
+3. Node js for backend
+4. Npm for installing packages/dependencies
 5. React.js for frontend
 6. Javascript for functional and logical part
+7. Html(JSX) for structure of the app.
+8.  CSS for styling the components.
 
 Learnings:
 
